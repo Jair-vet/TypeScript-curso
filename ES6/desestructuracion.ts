@@ -24,6 +24,19 @@
     } 
 
     // printAvenger( avengers);
+
+
+//     const avengerArr: string[] = ['cap. America','ironman','Hulk','Thor'];
+//     const [cap,iron,...todos] = avengerArr;
+// 
+//     console.log({iron, cap});
+//     console.log({todos});
+    
+// Tupla
+    const avengerArr: [string, boolean, number] = ['cap. America',true,12.443];
+    const [cap,iron,] = avengerArr;
+
+    console.log({iron, cap});
     
 
 })()
