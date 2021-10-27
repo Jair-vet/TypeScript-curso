@@ -27,7 +27,7 @@
     //Crear instancia de la clase Mutant que implementa de dos interfaces
     const villian1 = new Mutant(32, 'Dazzler', 'Alison Blaire');
 
-    console.log(villian1);
+    // console.log(villian1);
     //console.log(villian1.mutantPower(1));
 
 

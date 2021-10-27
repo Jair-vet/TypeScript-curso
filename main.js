@@ -26,7 +26,6 @@
         }
     }
     const villian1 = new Mutant(32, 'Dazzler', 'Alison Blaire');
-    console.log(villian1);
 })();
 (() => {
     const client = {
@@ -52,6 +51,12 @@
         getFullAdress(id) {
             return this.address.city;
         }
+    };
+})();
+(() => {
+    let addNumbersFunction;
+    addNumbersFunction = (a, b) => {
+        return 10;
     };
 })();
 //# sourceMappingURL=main.js.map
