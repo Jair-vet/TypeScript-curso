@@ -22,6 +22,9 @@
             id: 1233,
             zip: 'KTY-294',
             city: 'Ottawa',
+        },
+        getFullAdress(id) {
+            return this.address.city;
         }
     };
     const client2 = {
@@ -31,6 +34,9 @@
             id: 1202,
             zip: 'JJH-982',
             city: 'Denver'
+        },
+        getFullAdress(id) {
+            return this.address.city;
         }
     };
 })();
